@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 
 # Load mô hình pipeline đã lưu (đã bao gồm preprocessing)
-model = joblib.load("models/logistic_final_titanic.pkl")
+model = joblib.load("logistic_final_titanic.pkl")
 
 # Giao diện người dùng
 st.title("🛳️ Dự đoán hành khách sống sót Titanic")
