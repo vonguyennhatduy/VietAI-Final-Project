@@ -2,14 +2,11 @@ import streamlit as st
 import joblib
 import pandas as pd
 
-# Load mô hình pipeline đã lưu (đã bao gồm preprocessing)
 model = joblib.load("models/logistic_final_titanic.pkl")
 
-# Giao diện người dùng
 st.title("🛳️ Dự đoán hành khách sống sót Titanic")
 st.write("Nhập thông tin hành khách để dự đoán khả năng sống sót.")
 
-# Nhập thông tin hành khách
 age = st.number_input("Tuổi", min_value=0.0, max_value=100.0, value=30.0)
 fare = st.number_input("Giá vé", min_value=0.0, value=50.0)
 sex = st.selectbox("Giới tính", ["male", "female"])
@@ -19,7 +16,6 @@ title = st.selectbox("Danh xưng (Title)", ["Mr", "Mrs", "Miss", "Master", "Othe
 family_cat = st.selectbox("Tình trạng gia đình", ["Alone", "Small", "Large"])
 
 
-# Khi người dùng nhấn nút "Dự đoán"
 if st.button("🎯 Dự đoán"):
     input_df = pd.DataFrame([{
         "Age": age,
