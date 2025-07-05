@@ -1,6 +1,6 @@
 TITANIC - MACHINE LEARNING FROM DISASTER PROJECT
 
-API (fastAPI): [https://titanic-pred-app.onrender.com/](https://titanic-pred-survival.onrender.com/)
+API (fastAPI): https://titanic-pred-survival.onrender.com/
 
 Web/App (Streamlit): https://titanic-jack-rose-sgjrqofiefqd3aghvgepgo.streamlit.app/ 
 
