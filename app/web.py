@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 import pandas as pd
 
-model = joblib.load("models/logistic_final_titanic.pkl")
+model = joblib.load("logistic_final_titanic.pkl")
 
 st.title("🛳️ Dự đoán hành khách sống sót Titanic")
 st.write("Nhập thông tin hành khách để dự đoán khả năng sống sót.")

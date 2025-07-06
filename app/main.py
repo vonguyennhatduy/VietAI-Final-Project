@@ -4,7 +4,7 @@ import joblib
 import pandas as pd
 
 try:
-    model = joblib.load("models/logistic_final_titanic.pkl")
+    model = joblib.load("logistic_final_titanic.pkl")
 except FileNotFoundError:
     model = None
     print("❌ Model not found. Đảm bảo file logistic_final_titanic.pkl tồn tại.")
