@@ -1,6 +1,6 @@
 TITANIC - MACHINE LEARNING FROM DISASTER PROJECT
 
-API (fastAPI): https://titanic-du-doan-ti-le-song-sot.onrender.com/ (502 Bad Gateway)
+API (fastAPI): https://titanic-du-doan-ti-le-song-sot.onrender.com/
 
 1. cd app and start docker
 2. docker build -t image-name .
